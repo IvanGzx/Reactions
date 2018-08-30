@@ -31,13 +31,13 @@
 "love" = "Love";
 
 /** Haha reaction. */
-"haha" = "Haha";
+"laugh" = "Laugh";
 
 /** Wow reaction. */
 "wow" = "Wow";
 
 /** Sad reaction. */
-"sad" = "Sad";
+"cry" = "Cry";
 
 /** Angry reaction. */
 "angry" = "Angry";

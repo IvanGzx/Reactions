@@ -40,9 +40,9 @@ extension Reaction {
       return reactionWithId("love")
     }
 
-    /// The facebook's "haha" reaction.
-    public static var haha: Reaction {
-      return reactionWithId("haha")
+    /// The facebook's "laugh" reaction.
+    public static var laugh: Reaction {
+      return reactionWithId("laugh")
     }
 
     /// The facebook's "wow" reaction.
@@ -50,9 +50,9 @@ extension Reaction {
       return reactionWithId("wow")
     }
 
-    /// The facebook's "sad" reaction.
-    public static var sad: Reaction {
-      return reactionWithId("sad")
+    /// The facebook's "cry" reaction.
+    public static var cry: Reaction {
+      return reactionWithId("cry")
     }
 
     /// The facebook's "angry" reaction.
@@ -60,8 +60,8 @@ extension Reaction {
       return reactionWithId("angry")
     }
 
-    /// The list of standard facebook reactions in this order: `.like`, `.love`, `.haha`, `.wow`, `.sad`, `.angry`.
-    public static let all: [Reaction] = [facebook.like, facebook.love, facebook.haha, facebook.wow, facebook.sad, facebook.angry]
+    /// The list of standard facebook reactions in this order: `.like`, `.love`, `.Laugh`, `.wow`, `.sad`, `.angry`.
+    public static let all: [Reaction] = [facebook.like, facebook.love, facebook.laugh, facebook.wow, facebook.cry, facebook.angry]
 
     // MARK: - Convenience Methods
 

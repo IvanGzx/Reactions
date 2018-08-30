@@ -31,7 +31,7 @@ class ReactionTests: XCTestCase {
     let reactions = Reaction.facebook.all
 
     XCTAssertEqual(reactions.count, 6)
-    XCTAssertEqual(reactions, [Reaction.facebook.like, Reaction.facebook.love, Reaction.facebook.haha, Reaction.facebook.wow, Reaction.facebook.sad, Reaction.facebook.angry])
+    XCTAssertEqual(reactions, [Reaction.facebook.like, Reaction.facebook.love, Reaction.facebook.laugh, Reaction.facebook.wow, Reaction.facebook.cry, Reaction.facebook.angry])
   }
 
   func testReactionInit() {
